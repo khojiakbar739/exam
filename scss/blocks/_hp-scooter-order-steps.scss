@@ -1,0 +1,218 @@
+.scooter-order-stepbystep .container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 170px auto;
+
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.scooter-order-stepbystep__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.scooter-order-stepbystep__item-locate,
+.scooter-order-stepbystep__item-pick,
+.scooter-order-stepbystep__item-enjoy {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 35px;
+  padding-top: 85px;
+}
+
+.scooter-order-stepbystep__list {
+  padding-top: 10px;
+  position: relative;
+}
+.scooter-order-stepbystep__list::before {
+  position: absolute;
+  top: 0;
+  left: -205px;
+  width: 100%;
+  max-width: 974px;
+  border: 5px solid #e5ecf4;
+  background-color: #e5ecf4;
+  display: inline-block;
+  content: "";
+}
+.scooter-order-stepbystep__item-locate::before {
+  position: absolute;
+  top: -42px;
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  background-color: #fcb72b;
+  background-image: url(../../images/homepage/mobile-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45px 45px;
+  border-radius: 50%;
+  content: "";
+}
+.scooter-order-stepbystep__item-pick::before {
+  position: absolute;
+  top: -42px;
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  background-color: #fcb72b;
+  background-image: url(../../images/homepage/001-scooter.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45px 45px;
+  border-radius: 50%;
+  content: "";
+}
+.scooter-order-stepbystep__item-enjoy::before {
+  position: absolute;
+  top: -42px;
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  background-color: #fcb72b;
+  background-image: url(../../images/homepage/moto.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45px 45px;
+  border-radius: 50%;
+  content: "";
+}
+.scooter-order-stepbystep__title {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.scooter-order-stepbystep__text {
+  width: 100%;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+
+@media only screen and (max-width: 651px) {
+  .scooter-order-stepbystep__list {
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  .scooter-order-stepbystep__list::before {
+    display: none;
+  }
+  .scooter-order-stepbystep__item-locate::before {
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #fcb72b;
+    background-image: url(../../images/homepage/mobile-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 45px 45px;
+    border-radius: 50%;
+    content: "";
+  }
+  .scooter-order-stepbystep__item-locate,
+  .scooter-order-stepbystep__item-pick,
+  .scooter-order-stepbystep__item-enjoy {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 350px;
+    margin: 35px 0;
+    padding: 0;
+  }
+  .scooter-order-stepbystep__item-pick::before {
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #fcb72b;
+    background-image: url(../../images/homepage/001-scooter.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 45px 45px;
+    border-radius: 50%;
+    content: "";
+  }
+  .scooter-order-stepbystep__item-enjoy::before {
+    position: absolute;
+    top: 50%;
+    left: -150px;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #fcb72b;
+    background-image: url(../../images/homepage/moto.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 45px 45px;
+    border-radius: 50%;
+    content: "";
+  }
+}
+@media only screen and (max-width: 426px) {
+  .scooter-order-stepbystep__item-locate::before {
+    position: absolute;
+    top: -80px;
+    left: 40%;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #fcb72b;
+    background-image: url(../../images/homepage/mobile-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 35px 35px;
+    border-radius: 50%;
+    content: "";
+  }
+  .scooter-order-stepbystep__list {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .scooter-order-stepbystep__item-pick::before {
+    position: absolute;
+    top: -80px;
+    left: 40%;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #fcb72b;
+    background-image: url(../../images/homepage/001-scooter.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 35px 35px;
+    border-radius: 50%;
+    content: "";
+  }
+  .scooter-order-stepbystep__item-enjoy::before {
+    position: absolute;
+    top: -80px;
+    left: 40%;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background-color: #fcb72b;
+    background-image: url(../../images/homepage/moto.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 35px 35px;
+    border-radius: 50%;
+    content: "";
+  }
+}

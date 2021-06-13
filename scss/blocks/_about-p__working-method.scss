@@ -1,0 +1,21 @@
+.about-us_working-method .container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 426px) {
+  .scooter-working-method-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 155px;
+    align-items: center;
+  }
+
+  & picture {
+    order: -1;
+  }
+}

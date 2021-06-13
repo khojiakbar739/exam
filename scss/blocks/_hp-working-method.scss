@@ -1,0 +1,155 @@
+.working-method .container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.scooter-working-method-list {
+  display: block;
+}
+.scooter-working-method-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 155px;
+  align-items: center;
+  &:nth-child(2n) picture {
+    order: -1;
+  }
+}
+.scooter-working-method-title {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  color: #495567;
+}
+.scooter-working-method-text {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+  max-width: 445px;
+  max-height: 100px;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+
+.scooter-working-method-link {
+  padding: 14px 44.5px;
+  text-decoration: none;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: 1px solid #fcb72b;
+  background-color: #fcb72b;
+}
+.scooter-working-method-link:hover {
+  background-color: white;
+  color: #fcb72b;
+}
+.working-method_pic {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .working-method .container {
+    width: 100%;
+    max-width: 768px;
+    padding: 0 100px;
+  }
+
+  .scooter-working-method-item {
+    display: block;
+    flex-direction: column;
+  }
+  .scooter-working-method-item__box {
+    margin-right: 0px;
+  }
+  .scooter-working-method_box {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 964px) {
+  .working-method .container {
+    width: 100%;
+    max-width: 964px;
+    padding: 0 100px;
+  }
+  .scooter-working-method-item {
+    margin-left: 20px;
+  }
+  .second {
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .working-method .container {
+    width: 100%;
+    max-width: 426px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .scooter-working-method-text {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    max-width: 420px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+  }
+  .scooter-working-method-list {
+    padding: 0;
+    text-align: center;
+  }
+  .scooter-working-method-link {
+    display: block;
+    width: 180px;
+    height: 53px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 14px;
+    text-align: center;
+
+    text-decoration: none;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: 1px solid #fcb72b;
+    background-color: #fcb72b;
+  }
+  // .scooter-working-principle_box {
+  //   display: block;
+  //   order: 3;
+  // }
+  .scooter-working-method-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 155px;
+    align-items: center;
+  }
+
+  & picture {
+    order: -1;
+  }
+}

@@ -1,0 +1,141 @@
+.our-value .container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.our-value__box {
+  margin: 0 auto;
+}
+.our-value__list {
+  padding-top: 300px;
+  list-style-type: none;
+  display: flex;
+}
+.our-value__title {
+  text-align: center;
+}
+.our-value__item {
+  position: relative;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+
+  &img {
+    order: -1;
+  }
+}
+.tech::after {
+  position: absolute;
+  top: -70%;
+  left: 37%;
+  content: "1";
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: #fcb72b;
+  vertical-align: middle;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.integrity::after {
+  position: absolute;
+  top: -70%;
+  left: 37%;
+  content: "2";
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: #fcb72b;
+  vertical-align: middle;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.community::after {
+  position: absolute;
+  top: -70%;
+  left: 37%;
+  content: "3";
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: #fcb72b;
+  vertical-align: middle;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.our-value__round-img {
+  position: absolute;
+  top: -215%;
+  left: 15%;
+  display: block;
+  width: 100%;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  order: -1;
+}
+.Our-values__item-title {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin: 0 auto;
+}
+.our-value__item-text {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939caa;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1058px) {
+  .our-value__round-img {
+    position: absolute;
+    top: -200%;
+    left: 15%;
+    display: block;
+    width: 100%;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    order: -1;
+  }
+}
+@media only screen and (max-width: 982px) {
+  .our-value__item {
+    flex-direction: column;
+  }
+
+  .our-value__list {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 982px) {
+}
